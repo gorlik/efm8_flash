@@ -1,0 +1,1 @@
+srec_cat $1 -intel -o ${1%hex}bin -binary
