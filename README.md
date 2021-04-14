@@ -7,3 +7,8 @@ To convert it from the Intel Hex format output by Silicon Labs Simplicity Studio
 EFM8 can currently flash only firmware less than 15K on the EFM8UB1. It will detect hotplug of the MCU at any time. 
 Press the flash button to write the firmware on the MCU.
 The archive also contains a command line version of the utility useful for scripting.
+
+# build dependencies
+The GUI uses wxwidgets for cross platform compatibility. WXGlade has been used to build the main window.
+the hidapi library is used to access the MCU. The makefile supports native linux builds and cross compiling for windows.
+
